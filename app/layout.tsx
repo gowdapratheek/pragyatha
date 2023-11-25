@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/providers/theme-provider";
-import { Inter } from "next/font/google";
+import { Chakra_Petch } from "next/font/google";
 
 import "./globals.css";
+import { ModeToggle } from "@/components/mode-toggle";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Chakra_Petch({
+	subsets: ["latin"],
+	weight: ["300", "400", "500", "600", "700"],
+});
 
 export const metadata: Metadata = {
 	title: "Pragyatha",
@@ -21,7 +25,7 @@ export default function RootLayout({
 			lang="en"
 			suppressHydrationWarning
 		>
-			<body className={inter.className}>
+			<body className={font.className}>
 				<ThemeProvider
 					attribute="class"
 					defaultTheme="dark"
@@ -29,6 +33,9 @@ export default function RootLayout({
 					disableTransitionOnChange
 				>
 					{children}
+					{/* <div className="z-30 bottom-2 left-2 fixed">
+						<ModeToggle />
+					</div> */}
 				</ThemeProvider>
 			</body>
 		</html>
