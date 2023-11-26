@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#time {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, #be287e, #35489e);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container p {
+  font-size: 3rem;
+  padding-bottom: 50px;
+}
+
+.timeDiv {
+  display: flex;
+  width: 100%;
+}
+
+.timeNames {
+  padding: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.timeNames h1 {
+  width: fit-content;
+  height: fit-content;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.timeDiv .timeNames p {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .container p {
+    font-size: 2rem;
+  }
+  .timeNames h1 {
+    font-size: 3rem;
+  }
+  .timeDiv .timeNames p {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    .container p {
+      font-size: 1.5rem;
+    }
+    .timeNames {
+      padding: 10px;
+    }
+    .timeNames h1 {
+      font-size: 1.5rem;
+      padding: 20px;
+    }
+    .timeDiv .timeNames p {
+      font-size: 0.7rem;
+    }
+  }
+}
