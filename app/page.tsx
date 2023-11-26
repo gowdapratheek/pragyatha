@@ -2,6 +2,7 @@ import Image from "next/image";
 import pragyatha_logo from "@/public/pragyatha.png";
 import Navbar from "@/components/navbar";
 import { TypingAnimationText } from "@/components/animate-text";
+import Timer from "@/components/timer/timer";
 
 export default function Home() {
 	return (
@@ -12,7 +13,7 @@ export default function Home() {
 		>
 			<Navbar />
 			<div
-				className={`flex flex-col md:flex-row md:justify-around items-center justify-center h-screen`}
+				className={`flex flex-col md:flex-row md:justify-around items-center justify-center h-[75vh]`}
 			>
 				<header>
 					<TypingAnimationText
@@ -38,7 +39,8 @@ export default function Home() {
 					className="md:w-60 md:h-60 md:mt-0 w-24 h-24 mt-8"
 				/>
 			</div>
-			<div className="flex md:mx-16 mx-8">
+			<Timer />
+			<div className="flex my-16 md:mx-16 mx-8">
 				<TypingAnimationText
 					text={"About"}
 					className="text-2xl md:text-4xl text-[#BE277E] transition-all hover:underline hover:text-white hover:cursor-pointer"

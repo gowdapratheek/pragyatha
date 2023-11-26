@@ -30,7 +30,7 @@ export const TypingAnimationText = ({
 		<motion.span
 			ref={ref}
 			initial="hidden"
-			animate={isInView ? "visible" : "hidde"}
+			animate={isInView ? "visible" : "hidden"}
 			transition={{ staggerChildren: 0.1 }}
 		>
 			<span className={className}>

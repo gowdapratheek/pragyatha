@@ -27,8 +27,8 @@ const links = [
 const Navbar = () => {
 	const pathname = usePathname();
 	return (
-		<nav className="flex justify-center md:justify-end mt-4">
-			<div className="flex">
+		<nav className="w-full h-fit flex justify-center md:justify-end mt-4 sticky top-0 z-30 backdrop-blur-md">
+			<div className="flex py-4">
 				{links.map((link, index) => (
 					<Link
 						href={link.href}
