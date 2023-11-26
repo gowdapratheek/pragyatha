@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
+import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Chakra_Petch } from "next/font/google";
 
 import "./globals.css";
-import { ModeToggle } from "@/components/mode-toggle";
 
 const font = Chakra_Petch({
 	subsets: ["latin"],
@@ -33,6 +33,7 @@ export default function RootLayout({
 					disableTransitionOnChange
 				>
 					{children}
+
 					{/* <div className="z-30 bottom-2 left-2 fixed">
 						<ModeToggle />
 					</div> */}

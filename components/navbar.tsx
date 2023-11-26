@@ -22,16 +22,12 @@ const links = [
 		name: "Contact",
 		href: "/contact",
 	},
-	{
-		name: "Team",
-		href: "/team",
-	},
 ];
 
 const Navbar = () => {
 	const pathname = usePathname();
 	return (
-		<nav className="flex justify-end mt-4">
+		<nav className="flex justify-center md:justify-end mt-4">
 			<div className="flex">
 				{links.map((link, index) => (
 					<Link
