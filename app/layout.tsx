@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Chakra_Petch } from "next/font/google";
 

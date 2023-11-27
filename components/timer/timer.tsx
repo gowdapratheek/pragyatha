@@ -45,7 +45,7 @@ function Timer() {
 
 	return (
 		<div className="text-center w-fit m-auto">
-			<div className="flex gap-x-4 justify-center p-4 border-spacing-4 border border-white">
+			<div className="flex gap-x-4 justify-center p-4 border-spacing-4 border-[0.5px] border-dashed">
 				<Time
 					timeNum={remainingTime.days}
 					timeName="Days"

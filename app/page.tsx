@@ -6,11 +6,7 @@ import Timer from "@/components/timer/timer";
 
 export default function Home() {
 	return (
-		<div
-			className={
-				"bg-[url('../public/bg1.jpg')] top-0 right-0 left-0 -z-10 absolute"
-			}
-		>
+		<div>
 			<Navbar />
 			<div
 				className={`flex flex-col md:flex-row md:justify-around items-center justify-center h-[75vh]`}
