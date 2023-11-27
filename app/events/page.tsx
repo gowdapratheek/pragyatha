@@ -10,7 +10,7 @@ const Page = () => {
 				</h1>
 			</header>
 			<EventContainer
-				title={"Entrophorsis"}
+				title={"Entrorphorsis"}
 				description={
 					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores hic maxime est atque doloremque. Hic, eaque ratione nemo doloribus, officia ut quisquam, illo deserunt omnis mollitia exercitationem quae error dicta nostrum cumque? Ad, ut. Quidem molestiae eum suscipit iste, ab molestias quasi eveniet vitae labore ad cupiditate aliquam accusamus dicta fugiat. Ullam blanditiis sed saepe. Est praesentium cupiditate consectetur eius?"
 				}
@@ -20,7 +20,7 @@ const Page = () => {
 				link={"https://sudarshanmg.vercel.app"}
 			/>
 			<EventContainer
-				title={"Entrophorsis"}
+				title={"Entrorphorsis"}
 				description={
 					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores hic maxime est atque doloremque. Hic, eaque ratione nemo doloribus, officia ut quisquam, illo deserunt omnis mollitia exercitationem quae error dicta nostrum cumque? Ad, ut. Quidem molestiae eum suscipit iste, ab molestias quasi eveniet vitae labore ad cupiditate aliquam accusamus dicta fugiat. Ullam blanditiis sed saepe. Est praesentium cupiditate consectetur eius?"
 				}
@@ -30,7 +30,7 @@ const Page = () => {
 				link={"https://sudarshanmg.vercel.app"}
 			/>
 			<EventContainer
-				title={"Entrophorsis"}
+				title={"Entrorphorsis"}
 				description={
 					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores hic maxime est atque doloremque. Hic, eaque ratione nemo doloribus, officia ut quisquam, illo deserunt omnis mollitia exercitationem quae error dicta nostrum cumque? Ad, ut. Quidem molestiae eum suscipit iste, ab molestias quasi eveniet vitae labore ad cupiditate aliquam accusamus dicta fugiat. Ullam blanditiis sed saepe. Est praesentium cupiditate consectetur eius?"
 				}
@@ -40,7 +40,7 @@ const Page = () => {
 				link={"https://sudarshanmg.vercel.app"}
 			/>
 			<EventContainer
-				title={"Entrophorsis"}
+				title={"Entrorphorsis"}
 				description={
 					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores hic maxime est atque doloremque. Hic, eaque ratione nemo doloribus, officia ut quisquam, illo deserunt omnis mollitia exercitationem quae error dicta nostrum cumque? Ad, ut. Quidem molestiae eum suscipit iste, ab molestias quasi eveniet vitae labore ad cupiditate aliquam accusamus dicta fugiat. Ullam blanditiis sed saepe. Est praesentium cupiditate consectetur eius?"
 				}
