@@ -1,8 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import pragyatha_logo from "@/public/pragyatha.png";
 import Navbar from "@/components/navbar";
 import { TypingAnimationText } from "@/components/animate-text";
+import { events } from "@/lib/events";
 import Timer from "@/components/timer/timer";
+import Link from "next/link";
 
 export default function Home() {
 	return (
@@ -39,7 +43,7 @@ export default function Home() {
 			<div className="flex my-16 md:mx-16 mx-8">
 				<TypingAnimationText
 					text={"About"}
-					className="text-2xl md:text-4xl text-[#BE277E] transition-all hover:underline hover:text-white hover:cursor-pointer"
+					className="text-4xl md:text-5xl text-[#BE277E] transition-all hover:underline hover:text-white hover:cursor-pointer"
 				>
 					<p className="text-xl text-justify my-4">
 						Pragyatha 2k23, a state-level entrepreneurial fest where technology
@@ -47,6 +51,39 @@ export default function Home() {
 						innovators, and start-ups to realize their potential and ambition.
 					</p>
 				</TypingAnimationText>
+			</div>
+			<div className="flex my-16 md:mx-16 mx-8">
+				<TypingAnimationText
+					text={"Schedule"}
+					className="text-4xl md:text-5xl text-[#BE277E] transition-all hover:underline hover:text-white hover:cursor-pointer"
+				>
+					<div>
+						{events.map((event) => (
+							<div
+								className="flex my-8 md:mx-16 mx-8"
+								key={event.title}
+							>
+								<TypingAnimationText
+									text={event.title}
+									className="text-transparent text-4xl md:text-5xl font-thin bg-clip-text bg-gradient-to-br from-[#BE277E] to-[#324AA0]"
+								>
+									<p className="text-xl text-justify my-4 text-neutral-500">
+										{event.date}, {event.time} Onwards
+									</p>
+								</TypingAnimationText>
+							</div>
+						))}
+					</div>
+				</TypingAnimationText>
+			</div>
+			<div className="flex my-16 md:mx-16 mx-8">
+				<Link
+					href={"/public/rulebook.pdf"}
+					className="text-2xl text-[#BE277E] hover:text-neutral-400 transition-all delay-100"
+					download
+				>
+					Download the Official Pragyatha Rulebook
+				</Link>
 			</div>
 		</div>
 	);

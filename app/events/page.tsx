@@ -1,6 +1,5 @@
 import EventContainer from "@/components/event-container";
-import sklt from "@/public/skeleton.jpg";
-
+import { events } from "@/lib/events";
 const Page = () => {
 	return (
 		<div>
@@ -9,46 +8,17 @@ const Page = () => {
 					Events
 				</h1>
 			</header>
-			<EventContainer
-				title={"Entrorphorsis"}
-				description={
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores hic maxime est atque doloremque. Hic, eaque ratione nemo doloribus, officia ut quisquam, illo deserunt omnis mollitia exercitationem quae error dicta nostrum cumque? Ad, ut. Quidem molestiae eum suscipit iste, ab molestias quasi eveniet vitae labore ad cupiditate aliquam accusamus dicta fugiat. Ullam blanditiis sed saepe. Est praesentium cupiditate consectetur eius?"
-				}
-				date={"Date"}
-				time={"Time"}
-				url={sklt}
-				link={"https://sudarshanmg.vercel.app"}
-			/>
-			<EventContainer
-				title={"Entrorphorsis"}
-				description={
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores hic maxime est atque doloremque. Hic, eaque ratione nemo doloribus, officia ut quisquam, illo deserunt omnis mollitia exercitationem quae error dicta nostrum cumque? Ad, ut. Quidem molestiae eum suscipit iste, ab molestias quasi eveniet vitae labore ad cupiditate aliquam accusamus dicta fugiat. Ullam blanditiis sed saepe. Est praesentium cupiditate consectetur eius?"
-				}
-				date={"Date"}
-				time={"Time"}
-				url={sklt}
-				link={"https://sudarshanmg.vercel.app"}
-			/>
-			<EventContainer
-				title={"Entrorphorsis"}
-				description={
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores hic maxime est atque doloremque. Hic, eaque ratione nemo doloribus, officia ut quisquam, illo deserunt omnis mollitia exercitationem quae error dicta nostrum cumque? Ad, ut. Quidem molestiae eum suscipit iste, ab molestias quasi eveniet vitae labore ad cupiditate aliquam accusamus dicta fugiat. Ullam blanditiis sed saepe. Est praesentium cupiditate consectetur eius?"
-				}
-				date={"Date"}
-				time={"Time"}
-				url={sklt}
-				link={"https://sudarshanmg.vercel.app"}
-			/>
-			<EventContainer
-				title={"Entrorphorsis"}
-				description={
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores hic maxime est atque doloremque. Hic, eaque ratione nemo doloribus, officia ut quisquam, illo deserunt omnis mollitia exercitationem quae error dicta nostrum cumque? Ad, ut. Quidem molestiae eum suscipit iste, ab molestias quasi eveniet vitae labore ad cupiditate aliquam accusamus dicta fugiat. Ullam blanditiis sed saepe. Est praesentium cupiditate consectetur eius?"
-				}
-				date={"Date"}
-				time={"Time"}
-				url={sklt}
-				link={"https://sudarshanmg.vercel.app"}
-			/>
+			{events.map((event, index) => (
+				<EventContainer
+					key={index}
+					title={event.title}
+					date={event.date}
+					description={event.description}
+					link={event.link}
+					url={event.url}
+					time={event.time}
+				/>
+			))}
 		</div>
 	);
 };
