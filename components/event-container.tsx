@@ -5,7 +5,7 @@ import Link from "next/link";
 
 type EventContainerProps = {
 	title: string;
-	description?: string;
+	overview?: string;
 	date?: string;
 	time?: string;
 	url?: StaticImageData | string | undefined;
@@ -15,7 +15,7 @@ type EventContainerProps = {
 const EventContainer = ({
 	title,
 	date,
-	description,
+	overview,
 	time,
 	url,
 	link,
@@ -35,9 +35,9 @@ const EventContainer = ({
 					{title}
 				</h1>
 				<div className="font-thin text-xl inline-block text-neutral-500">
-					{date} {time}
+					{date} {time} onwards
 				</div>
-				<p className="py-4 text-justify text-neutral-400">{description}</p>
+				<p className="py-4 text-justify text-neutral-400">{overview}</p>
 				<Link
 					className="text-justify hover:text-amber-400"
 					href={link! + `/${title}`}

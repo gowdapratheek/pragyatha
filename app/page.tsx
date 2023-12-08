@@ -78,9 +78,12 @@ export default function Home() {
 			</div>
 			<div className="flex my-16 md:mx-16 mx-8">
 				<Link
-					href={"/public/rulebook.pdf"}
+					href={
+						"https://cloud.appwrite.io/v1/storage/buckets/657355464bf7a225160c/files/657355946c535362ac51/view?project=6573553032bdf2af1fa2&mode=admin"
+					}
+					target="_blank"
 					className="text-2xl text-[#BE277E] hover:text-neutral-400 transition-all delay-100"
-					download
+					download={"rulebook.pdf"}
 				>
 					Download the Official Pragyatha Rulebook
 				</Link>

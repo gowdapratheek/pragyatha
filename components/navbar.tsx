@@ -15,10 +15,6 @@ const links = [
 		href: "/events",
 	},
 	{
-		name: "Gallery",
-		href: "/gallery",
-	},
-	{
 		name: "Contact",
 		href: "/contact",
 	},

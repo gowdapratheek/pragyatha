@@ -13,7 +13,7 @@ const Page = () => {
 					key={index}
 					title={event.title}
 					date={event.date}
-					description={event.description}
+					overview={event.overview}
 					link={event.link}
 					url={event.url}
 					time={event.time}
