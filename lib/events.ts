@@ -10,7 +10,7 @@ export const events = [
 		date: "16th and 17th of Dec",
 		time: "09:30 A.M.",
 		url: sklt,
-		link: `/events/`,
+		link: `https://forms.gle/8DuuNLWwTHpoDBwk8`,
 	},
 	{
 		title: "Shark Tank",
@@ -21,7 +21,7 @@ export const events = [
 		date: "16th of Dec",
 		time: "10:00 A.M.",
 		url: sklt,
-		link: `/events/`,
+		link: `https://forms.gle/c83zwgjcmnC2V6vn7`,
 	},
 	{
 		title: "Tradeshow",
@@ -36,7 +36,7 @@ export const events = [
 		date: "16th of Dec",
 		time: "10:00 A.M.",
 		url: sklt,
-		link: `/events/`,
+		link: `https://forms.gle/c83zwgjcmnC2V6vn7`,
 	},
 	{
 		title: "Adspize",
@@ -51,7 +51,7 @@ export const events = [
 		date: "15th of Dec",
 		time: "05:30 P.M.",
 		url: sklt,
-		link: `/events/`,
+		link: `https://forms.gle/Rcb9ot8JUG2bWapw5`,
 	},
 	{
 		title: "UI/UX Hackathon",
@@ -64,7 +64,7 @@ export const events = [
 		date: "15th and 16th of Dec",
 		time: "07:00 P.M.",
 		url: sklt,
-		link: `/events/`,
+		link: `https://forms.gle/5R5umsDBSjgZdRcj7`,
 	},
 	{
 		title: "PCB Design Workshops",
@@ -76,7 +76,7 @@ export const events = [
 		date: "16th and 17th of Dec",
 		time: "09:30 A.M.",
 		url: sklt,
-		link: `/events/`,
+		link: `https://forms.gle/U6Rqrw5PxTjN6bVY6`,
 	},
 	{
 		title: "The BigBull Workshops",
@@ -89,7 +89,7 @@ export const events = [
 		date: "17th of Dec",
 		time: "09:30 A.M.",
 		url: sklt,
-		link: `/events/`,
+		link: `https://forms.gle/ycs1m6UDb7DYZVxB8`,
 	},
 	{
 		title: "React JS Workshops",
@@ -103,6 +103,6 @@ export const events = [
 		date: "16th and 17th of Dec",
 		time: "09:30 A.M.",
 		url: sklt,
-		link: `/events/`,
+		link: `https://forms.gle/44wB4gHHpUvLSMci9`,
 	},
 ];

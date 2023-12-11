@@ -40,7 +40,8 @@ const EventContainer = ({
 				<p className="py-4 text-justify text-neutral-400">{overview}</p>
 				<Link
 					className="text-justify hover:text-amber-400"
-					href={link! + `/${title}`}
+					target="_blank"
+					href={link!}
 				>
 					Register here
 				</Link>
