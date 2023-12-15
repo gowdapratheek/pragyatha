@@ -17,7 +17,7 @@ export default function Home() {
 			>
 				<header>
 					<TypingAnimationText
-						className="text-transparent text-xl bg-clip-text bg-gradient-to-br from-[#BE277E] to-[#324AA0]"
+						className="text-transparent text-xl bg-clip-text bg-gradient-to-br from-[#BE277E] to-[--secondary-text]"
 						text={"ME-RIISE "}
 					>
 						<span className="text-black dark:text-white">presents</span>
@@ -76,16 +76,28 @@ export default function Home() {
 					</div>
 				</TypingAnimationText>
 			</div>
-			<div className="flex my-16 md:mx-16 mx-8">
+			<div className="flex flex-col my-16 md:mx-16 mx-8">
 				<Link
 					href={
 						"https://cloud.appwrite.io/v1/storage/buckets/657355464bf7a225160c/files/657743f1d1e081f15ddc/view?project=6573553032bdf2af1fa2&mode=admin"
 					}
 					target="_blank"
-					className="text-2xl text-[#BE277E] hover:text-neutral-400 transition-all delay-100"
+					className="text-2xl text-[#BE277E] hover:text-neutral-400 transition-all delay-100 mb-4"
 					download={"rulebook.pdf"}
+					id="rulebook"
 				>
 					Download the Official Pragyatha Rulebook
+				</Link>
+				<Link
+					href={
+						"https://cloud.appwrite.io/v1/storage/buckets/657355464bf7a225160c/files/657beaff59d7e56a4e12/view?project=6573553032bdf2af1fa2&mode=admin"
+					}
+					target="_blank"
+					className="text-2xl text-[#BE277E] hover:text-neutral-400 transition-all delay-100"
+					download={"schedule.pdf"}
+					id="schedule"
+				>
+					Download the Official Pragyatha Schedule
 				</Link>
 			</div>
 		</div>

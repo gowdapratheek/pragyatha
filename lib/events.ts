@@ -1,4 +1,12 @@
 import sklt from "@/public/skeleton.jpg";
+import entrorphosis from "@/public/entrorphosis.jpeg";
+import adspize from "@/public/adspize.jpeg";
+import sharktank from "@/public/adspize.jpeg";
+import tradeshow from "@/public/tradeshow.jpeg";
+import pcb from "@/public/pcb.jpeg";
+import bigbull from "@/public/bigbull.jpeg";
+import ui from "@/public/ui.jpeg";
+import react from "@/public/react.jpeg";
 
 export const events = [
 	{
@@ -8,8 +16,8 @@ export const events = [
 		team up and put in their ingenuity and efforts to  simulate a 
 		lucrative enterprise`,
 		date: "16th and 17th of Dec",
-		time: "09:30 A.M.",
-		url: sklt,
+		time: "10:00 A.M.",
+		url: entrorphosis,
 		link: `https://forms.gle/8DuuNLWwTHpoDBwk8`,
 	},
 	{
@@ -19,8 +27,8 @@ export const events = [
 		models to a group of investors, endeavoring to convince 
 		them to invest funds in their innovative idea`,
 		date: "16th of Dec",
-		time: "10:00 A.M.",
-		url: sklt,
+		time: "08:00 A.M.",
+		url: sharktank,
 		link: `https://forms.gle/c83zwgjcmnC2V6vn7`,
 	},
 	{
@@ -34,8 +42,8 @@ export const events = [
 		groups, develop new collaboration patterns, and gain groups, develop new collaboration patterns, and gain 
 		market share`,
 		date: "16th of Dec",
-		time: "10:00 A.M.",
-		url: sklt,
+		time: "09:00 A.M.",
+		url: tradeshow,
 		link: `https://forms.gle/c83zwgjcmnC2V6vn7`,
 	},
 	{
@@ -49,8 +57,8 @@ export const events = [
 		ads embody key elements such as clarity, creativity, ads embody key elements such as clarity, creativity, 
 		appeal, and simplicity.`,
 		date: "15th of Dec",
-		time: "05:30 P.M.",
-		url: sklt,
+		time: "06:00 P.M.",
+		url: adspize,
 		link: `https://forms.gle/Rcb9ot8JUG2bWapw5`,
 	},
 	{
@@ -63,7 +71,7 @@ export const events = [
 		present to the judging panel.`,
 		date: "15th and 16th of Dec",
 		time: "07:00 P.M.",
-		url: sklt,
+		url: ui,
 		link: `https://forms.gle/5R5umsDBSjgZdRcj7`,
 	},
 	{
@@ -75,7 +83,7 @@ export const events = [
 		in creating circuit boards within an industrial setting`,
 		date: "16th and 17th of Dec",
 		time: "09:30 A.M.",
-		url: sklt,
+		url: pcb,
 		link: `https://forms.gle/U6Rqrw5PxTjN6bVY6`,
 	},
 	{
@@ -88,7 +96,7 @@ export const events = [
 		successful investment approaches`,
 		date: "17th of Dec",
 		time: "09:30 A.M.",
-		url: sklt,
+		url: bigbull,
 		link: `https://forms.gle/ycs1m6UDb7DYZVxB8`,
 	},
 	{
@@ -102,7 +110,7 @@ export const events = [
 		creation of contemporary and responsive web applications.creation of contemporary and responsive web applications`,
 		date: "16th and 17th of Dec",
 		time: "09:30 A.M.",
-		url: sklt,
+		url: react,
 		link: `https://forms.gle/44wB4gHHpUvLSMci9`,
 	},
 ];

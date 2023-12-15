@@ -35,6 +35,9 @@
  
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
+
+    --primary-text: #BE277E;
+    --secondary-text: #324AA0;
  
     --primary: 0 0% 9%;
     --primary-foreground: 0 0% 98%;

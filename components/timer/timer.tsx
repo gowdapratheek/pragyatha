@@ -20,7 +20,7 @@ function Timer() {
 	setInterval(updateTime, 1000);
 
 	function calculateRemainingTime() {
-		const deadline: Date = new Date("2023-12-15T23:59:59+05:30");
+		const deadline: Date = new Date("2023-12-15T17:00:00+05:30");
 		// @ts-ignore
 		const timeDiff: Date | number = deadline - new Date();
 		const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
